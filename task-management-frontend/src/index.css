@@ -1,0 +1,99 @@
+/* index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.list-group {
+  width: 300px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-group-item input {
+  margin-right: 10px;
+  border: 2px solid #3498db;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-group-item input:focus {
+  outline: none;
+  border-color: #e74c3c;
+}
+
+.list-group-item button {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e74c3c;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item button:hover {
+  background-color: #c0392b;
+}
+
+.list-group-item button:focus {
+  outline: none;
+}
+
+/* Add this to your CSS file or style block */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+thead th, tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+thead th {
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
